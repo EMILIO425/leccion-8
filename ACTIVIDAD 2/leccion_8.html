@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ 
+    <style>
+        body {
+            background-color: rgb(0,0,255);
+        }
+    
+    @media only screen and (min-width: 800px) {
+    body{   background-color: rgb(0,255,0);} 
+    }
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+
+    body{
+        background-color: red;
+    }
+  }
+   
+        @media print and (min-width: 100px){ 
+            body { color: green;
+           font-size: 50px;
+             background-color: blue;    }
+        }
+     
+
+   </style>
+    <body>
+<p>esto es un texto</p>
+<div>
+    <p id="parrafo_1">parrafo 1</p>
+</div>
+</body>
+</html>

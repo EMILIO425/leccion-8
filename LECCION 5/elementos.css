@@ -1,0 +1,15 @@
+h1{
+color: rgba(37, 97, 3, 0.884);
+font-size: 60px;
+font-family: fantasy;
+margin: 50px;
+text-align: center;
+background-color: lightseagreen
+}
+body{
+    background: lightseagreen;
+}
+title {
+background: lightslategray;
+font-family: cursive;
+}
